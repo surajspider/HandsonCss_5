@@ -1,0 +1,400 @@
+/*For Mobile View*/
+@media only screen and (max-width:550px) {
+    body {
+        background-image: url("./shara\ desert.jpg");
+        background-position-x: 50%;
+    }
+
+    .main-nav {
+        width: 100%;
+        /* border: 2px solid black; */
+        float: left;
+        margin: 0;
+    }
+
+    .logo {
+        float: left;
+        margin: 13px 0px 0px 10px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav {
+        float: right;
+        margin-right: 30px;
+    }
+
+    .nav a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        line-height: 20px;
+        font-size: small;
+    }
+
+    .menu {
+        /* border: 2px solid black; */
+        float: right;
+        margin: 10px 15px 0px 10px;
+    }
+
+    #menubutton {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .h1edit {
+        margin: 0;
+    }
+
+    .contentbox {
+        /* border: 2px solid black; */
+        margin: 0px 25px 10px 15px;
+        color: white;
+    }
+
+    .contentheight {
+        line-height: 25px;
+        margin: 0;
+    }
+
+    #explorebut {
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+        width: 60%;
+        padding: 10px;
+        margin: 15px 0px 0px 0px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .flexbox {
+        width: 60%;
+        height: 200px;
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        margin-bottom: 25px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .box1 {
+        background-image: url("./pic-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .box2 {
+        background-image: url("./pic-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .box3 {
+        background-image: url("./pic-3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .box4 {
+        background-image: url("./pic-4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .flexcontent {
+        margin: 0;
+    }
+
+    .contentbox-flex {
+        margin: 20px;
+    }
+
+    .flexbox:hover {
+        transform: translate(0px, -10px);
+        cursor: pointer;
+        transition-timing-function: ease;
+    }
+}
+
+
+/*For IPad or Tablet View*/
+
+@media only screen and (min-width:551px) and (max-width:1000px) {
+    body {
+        background-image: url("./shara\ desert.jpg");
+        background-size: cover;
+    }
+
+    .main-nav {
+        width: 100%;
+        /* border: 2px solid black; */
+        float: left;
+        margin: 0;
+    }
+
+    .logo {
+        float: left;
+        margin: 10px 0px 0px 50px;
+        /* border: 2px solid black; */
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav {
+        float: right;
+        margin: 30px 20px 0px 0px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 40px;
+    }
+
+    .menu {
+        /* border: 2px solid black; */
+        float: right;
+        margin: 25px 95px 0px 0px;
+    }
+
+    #menubutton {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    .h1edit {
+        margin: 0;
+    }
+
+    .contentbox {
+        /* border: 2px solid black; */
+        margin: 0px 25px 10px 50px;
+        color: white;
+    }
+
+    .contentheight {
+        line-height: 35px;
+        margin: 0;
+    }
+
+    #explorebut {
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+        width: 30%;
+        padding: 10px;
+        margin: 35px 0px 0px 0px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .flexbox {
+        width: 60%;
+        height: 200px;
+        /* border: 2px solid black; */
+        border-radius: 10px;
+        margin-bottom: 25px;
+        color: white;
+        line-height: 30px;
+    }
+
+    .box1 {
+        background-image: url("./pic-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box2 {
+        background-image: url("./pic-2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box3 {
+        background-image: url("./pic-3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box4 {
+        background-image: url("./pic-4.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .flexcontent {
+        margin: 0;
+    }
+
+    .contentbox-flex {
+        margin: 20px;
+    }
+
+    .flexbox:hover {
+        transform: translate(0px, -10px);
+        cursor: pointer;
+        transition-timing-function: ease;
+    }
+}
+
+@media only screen and (min-width:1001px) {
+    body {
+        background-image: url("./shara\ desert.jpg");
+        background-size: cover;
+    }
+
+    .main-nav {
+        width: 100%;
+        /* border: 2px solid black; */
+        float: left;
+        margin: 0;
+    }
+
+    .logo {
+        float: left;
+        margin: 10px 0px 0px 50px;
+        /* border: 2px solid black; */
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nav {
+        float: right;
+        margin: 30px 20px 0px 0px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 40px;
+    }
+
+    .menu {
+        /* border: 2px solid black; */
+        float: right;
+        margin: 25px 95px 0px 20px;
+    }
+
+    #menubutton {
+
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .contentbox {
+        /* border: 2px solid black; */
+        margin: 0px 25px 10px 50px;
+        color: white;
+        float: left;
+        width: 45%;
+    }
+
+    .h1alt {
+        font-size: 80px;
+        margin: 200px 10px 0px 0px;
+    }
+
+    .contentheight {
+        line-height: 35px;
+        margin: 0;
+    }
+
+    #explorebut {
+        border-radius: 20px;
+        border: none;
+        background-color: white;
+        width: 30%;
+        padding: 10px;
+        margin: 35px 0px 0px 0px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .flex {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 450px;
+        margin: auto;
+    }
+
+    .flexbox {
+        width: 180px;
+        height: 200px;
+        border-radius: 10px;
+        /* border: 2px solid black; */
+        margin: 30px 0px 20px 0px;
+        color: white;
+        line-height: 25px;
+    }
+
+    .contentbox-flex h3 {
+        margin: 0;
+    }
+
+    .flexcontent {
+        margin-top: 0;
+    }
+
+    .contentbox-flex {
+        margin: 10px 0px 0px 10px;
+    }
+
+    .box1 {
+        background-image: url("./pic-1.png");
+        background-size: cover;
+    }
+
+    .box2 {
+        background-image: url("./pic-2.png");
+        background-size: cover;
+    }
+
+    .box3 {
+        background-image: url("./pic-3.png");
+        background-size: cover;
+    }
+
+    .box4 {
+        background-image: url("./pic-4.png");
+        background-size: cover;
+    }
+
+    .flexbox:hover {
+        transform: translate(0px, -10px);
+        cursor: pointer;
+        transition-timing-function: ease;
+    }
+
+}
